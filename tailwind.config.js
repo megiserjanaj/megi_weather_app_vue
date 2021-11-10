@@ -3,11 +3,7 @@ module.exports = {
     purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
      darkMode: false,
      theme: {
-       extend: {
-           animation: {
-               'bounceIn': '0.5s'
-           }
-       },
+       extend: {},
        colors: {
         white: {
             50: '#ffffff',
