@@ -10,7 +10,7 @@
 					rounded
 					overflow-hidden
 					bg-white-50
-					shadow-lg
+					shadow-custom
 					animate__animated animate__fadeInUp
 				">
 				<div v-if="info" class="px-8 py-8 bg-white w-full h-auto">

@@ -41,6 +41,18 @@ module.exports = {
             800: '#0d0b2d',
             900: '#0b0925'
         },
+        portGore: {
+            50: '#f4f4f6',
+            100: '#e9e9ee',
+            200: '#c7c7d3',
+            300: '#a5a5b9',
+            400: '#626285',
+            500: '#1e1e50',
+            600: '#1b1b48',
+            700: '#17173c',
+            800: '#121230',
+            900: '#0f0f27'
+        },
         blackRock: {
             50: '#f3f3f5',
             100: '#e6e6eb',
@@ -68,15 +80,9 @@ module.exports = {
            sans: "'Source Sans Pro', sans-serif",
            anton: "'Anton', sans-serif"
        },
-       /*
-       screens: {
-           'xs': '320px',
-           'sm': '640px',
-           'md': '768px',
-           'lg': '1024px',
-           'xl': '1280px'
-       }
-       */
+       boxShadow: {
+           custom: '-1px 20px 15px 3px rgb(0 0 0 / 30%), 0px 20px 12px 18px rgb(0 0 0 / 10%)'
+       },
      },
      variants: {
        extend: {},

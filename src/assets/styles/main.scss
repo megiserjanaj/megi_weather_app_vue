@@ -1,33 +1,27 @@
-
-body {
-	background-color: #1e1e50;
-}
-
-.shadow-lg {
-	box-shadow: -1px 20px 15px 3px rgb(0 0 0 / 30%),
-		0px 20px 12px 18px rgb(0 0 0 / 10%);
-}
+$animationDuration1s: 1s;
+$animationDuration2s: 2s;
+$animationDelay2s: 2s;
 
 
 /* Animate CSS */
 .animate__bounceIn {
 	animation-delay: 0.5s;
-	animation-duration: 1s;
+	animation-duration: $animationDuration1s;
 }
 .animate__fadeInUp {
-	animation-duration: 1.5s;
+	animation-duration: $animationDuration2s;
 }
 .animate__zoomIn {
 	animation-delay: 1.5s;
-	animation-duration: 1s;
+	animation-duration: $animationDuration1s;
 }
 .animate__fadeInLeft {
-	animation-delay: 2s;
-	animation-duration: 1.5s;
+	animation-delay: $animationDelay2s;
+	animation-duration: $animationDuration2s;
 }
 .animate__fadeIn {
-	animation-delay: 2s;
-	animation-duration: 2s;
+	animation-delay: $animationDelay2s;
+	animation-duration: $animationDuration2s;
 }
 
 /* Media Queries */
