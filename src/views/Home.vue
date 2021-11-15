@@ -4,13 +4,26 @@
 			<div class="mx-auto my-auto text-center">
 				<h1
 					class="
-						text-xxxl text-white-50 font-sans
+						text-xxxl text-white-50
+						font-sans
+						xs:text-xl
+						sm:text-xxxl
+						md:text-xxxl
+						lg:text-xxxl
 						animate__animated animate__zoomIn
 					">
 					Welcome to your weather app!
 				</h1>
 				<br />
-				<p class="text-white-50 font-sans animate__animated animate__fadeIn">
+				<p
+					class="
+						text-white-50
+						font-sans
+						xs:text-sm
+						md:text-base
+						lg:text-base
+						animate__animated animate__fadeIn
+					">
 					Please enter your preferred city down below:
 				</p>
 			</div>
@@ -36,6 +49,9 @@
 						text-white-50
 						font-sans
 						focus:outline-none focus:border-green-500
+						xs:w-60
+						md:w-full
+						lg:w-full
 					"
 					v-bind:style="{ 'background-color': 'transparent' }"
 					v-model="query"

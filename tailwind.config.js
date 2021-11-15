@@ -83,6 +83,14 @@ module.exports = {
        boxShadow: {
            custom: '-1px 20px 15px 3px rgb(0 0 0 / 30%), 0px 20px 12px 18px rgb(0 0 0 / 10%)'
        },
+       screens: {
+           xs: '200px',
+           sm: '640px',
+           md: '768px',
+           lg: '1024px',
+           xl: '1280px',
+           xxl: '1536px'
+       }
      },
      variants: {
        extend: {},

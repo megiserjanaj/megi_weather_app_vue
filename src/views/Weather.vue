@@ -12,6 +12,9 @@
 					bg-white-50
 					shadow-custom
 					animate__animated animate__fadeInUp
+					xs:w-60
+					md:w-80
+					lg:w-80
 				">
 				<div v-if="info" class="px-8 py-8 bg-white w-full h-auto">
 					<h2
@@ -21,11 +24,20 @@
 							text-xxxl text-gunSmoke-500
 							capitalize
 							mx-auto
+							xs:text-xl
+							md:text-xxxl
+							lg:text-xl
 						">
 						{{ info.data.name }}
-						<sup class="text-blackRock-500 text-base">{{
-							info.data['sys']['country']
-						}}</sup>
+						<sup
+							class="
+								text-blackRock-500 text-base
+								xs:text-sm
+								md:text-base
+								lg:text-base
+							"
+							>{{ info.data['sys']['country'] }}</sup
+						>
 					</h2>
 					<div id="icon" class="mx-auto -mt-2">
 						<img
@@ -35,6 +47,9 @@
 								h-auto
 								mx-auto
 								my-2
+								xs:w-20
+								md:w-30
+								lg:w-30
 								animate__animated animate__fadeInLeft
 							" />
 					</div>
@@ -44,6 +59,9 @@
 							font-anton
 							mx-auto
 							-mt-4
+							xs:text-xxl
+							md:text-xxxxl
+							lg:text-xxxxl
 							animate__animated animate__zoomIn
 						">
 						{{ Math.round(info.data['main']['temp']) }}&deg;C
@@ -75,10 +93,20 @@
 								font-extrabold
 								text-stratos-500
 								font-sans
+								xs:text-base
+								md:text-lg
+								lg:text-xl
 							">
 							Feels like
 						</h3>
-						<p class="text-base text-blackRock-500 font-anton">
+						<p
+							class="
+								text-base text-blackRock-500
+								font-anton
+								xs:text-sm
+								md:text-base
+								lg:text-base
+							">
 							{{
 								Math.round(info.data['main']['feels_like'])
 							}}&deg;C
@@ -93,6 +121,9 @@
 							align-middle
 							mx-auto
 							my-0
+							xs:px-0
+							md:px-5
+							lg:px-5
 							animate__animated animate__fadeIn
 						">
 						<div
@@ -111,6 +142,9 @@
 									font-extrabold
 									text-centertext text-stratos-500
 									font-sans
+									xs:text-sm
+									md:text-base
+									lg:text-base
 								">
 								Humidity
 							</h3>
@@ -118,6 +152,9 @@
 								class="
 									text-base text-center text-blackRock-500
 									font-sans
+									xs:text-sm
+									md:text-base
+									lg:text-base
 								">
 								{{ Math.round(info.data['main']['humidity']) }}
 							</p>
@@ -138,10 +175,20 @@
 									font-extrabold
 									text-stratos-500
 									font-sans
+									xs:text-sm
+									md:text-base
+									lg:text-base
 								">
 								Wind
 							</h3>
-							<p class="text-base text-blackRock-500 font-sans">
+							<p
+								class="
+									text-base text-blackRock-500
+									font-sans
+									xs:text-sm
+									md:text-base
+									lg:text-base
+								">
 								{{ info.data['wind']['speed'] }}
 							</p>
 						</div>
