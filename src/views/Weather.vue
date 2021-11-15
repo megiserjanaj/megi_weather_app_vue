@@ -26,7 +26,7 @@
 							mx-auto
 							xs:text-xl
 							md:text-xxxl
-							lg:text-xl
+							lg:text-xxxl
 						">
 						{{ info.data.name }}
 						<sup
