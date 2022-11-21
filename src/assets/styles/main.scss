@@ -2,6 +2,11 @@ $animationDuration1s: 1s;
 $animationDuration2s: 2s;
 $animationDelay2s: 2s;
 
+body {
+	@apply bg-portGore-500;
+}
+
+/* class="bg-portGore-500" */
 
 /* Animate CSS */
 .animate__bounceIn {
