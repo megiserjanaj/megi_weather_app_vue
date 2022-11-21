@@ -221,7 +221,7 @@ export default {
 	mounted() {
 		axios
 			.get(
-				`https://api.openweathermap.org/data/2.5/weather?q=${this.city}&appid=d51b80a3ed242739b0f0e224e35a23a4&units=metric`
+				`https://api.openweathermap.org/data/2.5/weather?q=${this.city}&appid=191cf9d46aad14039e87a540380d419b&units=metric`
 			)
 			.then((res) => (this.info = res))
 			.catch((err) => {
